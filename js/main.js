@@ -1,15 +1,27 @@
-var friendList = document.getElementById("Steve");
+$(document).ready(function(){
 
+  $("#description").hide();
 
-friendList.addEventListener("mouseover", showDescription);
-friendList.addEventListener("mouseleave", hideDescription);
+  $("#Steve").click(function(){
+    $(this).next("#description").slideToggle();
+  })
 
-function showDescription(){
-  // if (e.target.innerHTML === "Steve"){
-    // e.target.append("<p>This guy is a crazy guy</p>");
-  // }
-  friendList.innerHTML += "<p>This guy is a crazy guy</p>";
-}
-function hideDescription(){
-  friendList.innerHTML -= "<p>This guy is a crazy guy</p>";
-}
+});
+
+//
+// var friendList = document.getElementById("Steve");
+//
+//
+// friendList.addEventListener("mouseover", showDescription);
+// friendList.addEventListener("mouseleave", hideDescription);
+//
+// function showDescription(){
+//   // if (e.target.innerHTML === "Steve"){
+//     // e.target.append("<p>This guy is a crazy guy</p>");
+//   // }
+//   friendList.innerHTML += "<p>This guy is a crazy guy</p>";
+// }
+// function hideDescription(){
+//   // friendList.innerHTML -= "<p>This guy is a crazy guy</p>";
+//   friendList.innerHTML -= "<p>This guy is a crazy guy</p>";
+// }
