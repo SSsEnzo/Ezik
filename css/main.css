@@ -1,0 +1,21 @@
+
+
+.friends-list{
+  list-style-type: none;
+}
+.friends{
+  padding: 5px 12px;
+  border-radius: 4px;
+  background: #1d89ff;
+  color: #fff;
+}
+
+@media(min-width: 900px){
+  .friends-list{
+    display: flex;
+    justify-content: space-between;
+  }
+  .friends{
+    flex-basis: 12%;
+  }
+}
