@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-  $("#description").hide();
+  $(".description").hide();
 
-  $("#Steve").click(function(){
-    $(this).next("#description").slideToggle();
-  })
+  $(".friends").click(function(){
+    $(this).next(".description").slideToggle();
+  });
 
 });
 
