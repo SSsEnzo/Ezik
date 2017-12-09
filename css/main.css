@@ -19,3 +19,18 @@
     flex-basis: 12%;
   }
 }
+
+
+.description-container{
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;*/
+}
+
+.description1 h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
